@@ -1,5 +1,5 @@
 
-[Download slides](https://udel.instructure.com/files/78540229/download){: .instructure_file_link .instructure_scribd_file }
+[Download slides](Return%20and%20Print.pdf)
 
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
