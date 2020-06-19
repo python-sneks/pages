@@ -1,15 +1,7 @@
-# &icon-ms-ppt; Slides
-
-[Download slides](https://udel.instructure.com/files/74577929/download){: .instructure_file_link .instructure_scribd_file }
-
-# &icon-video; Video
+[Download slides](Execution.pdf){: .instructure_file_link .instructure_scribd_file }
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
-title="Introduction.pdf"
-src="https://www.youtube.com/embed/-mK3zLNIkDs?feature=oembed&amp;rel=0" 
-></iframe>
-
-# &icon-document; Transcript
+title="Execution.pdf" src="https://www.youtube.com/embed/-mK3zLNIkDs?feature=oembed&amp;rel=0"></iframe>
 
 #### Executing a Program
 
