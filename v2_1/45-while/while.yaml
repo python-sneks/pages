@@ -1,0 +1,18 @@
+title: While Loops
+video: BOebf9j44V4
+introduction: In this lesson, you will learn about a new kind of loop called WHILE loops. These loops are somewhat different from FOR loops, and in fact act more like IF statements. Although WHILE loops are common in other languages, they are less useful in Python, so we will not use them very much.
+objectives:
+    - Compare and contrast the For loop and While loop
+    - Define a While loop
+    - Determine if a situation requires a While loop
+    - Write code that involves condition based iteration
+    
+    - Define control structure
+    - Identify control structures in code
+    - Describe the impact of various control structures on the sequence of a program.
+    - Nest control structures
+activities:
+    - "Lesson: While Loops"
+    - "Quiz: While Loops"
+    - "Programming: While Loops"
+summary: The WHILE loop repeatedly performs a body of actions until its condition is no longer true. In this way, they are very similar to an IF statement that loops back on itself.
