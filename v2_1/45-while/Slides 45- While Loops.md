@@ -39,7 +39,7 @@ while condition:
 
 `while` loops are actually very similar to `if` statements.
 However, instead of executing once or none, they will execute repeatedly until the condition is false.
-Note that a loop won't end until the condition evaluates to false ? even if the condition would be false during the loop body, the loop can't end until the end of the body.
+Note that a loop won't end until the condition evaluates to false - even if the condition would be false during the loop body, the loop can't end until the end of the body.
 
 
 > An arrow traces the flow in the code below, with a branch at the end of the loop's body: one branch moves back up to the start of the loop, and the other moves further downward.
