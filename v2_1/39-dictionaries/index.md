@@ -1,5 +1,5 @@
 
-[Download slides](https://udel.instructure.com/files/78929713/download){: .instructure_file_link .instructure_scribd_file }
+[Download slides](Dictionaries.pdf)
 
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
