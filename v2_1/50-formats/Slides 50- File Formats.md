@@ -1,15 +1,12 @@
-# &icon-ms-ppt; Slides
 
 [Download slides](https://udel.instructure.com/files/76109867/download){: .instructure_file_link .instructure_scribd_file }
 
-# &icon-video; Video
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
 title="Introduction.pdf"
 src="https://www.youtube.com/embed/fRP5KVEjVJ4?feature=oembed&amp;rel=0" 
 ></iframe>
 
-# &icon-document; Transcript
 
 #### File Formats
 
