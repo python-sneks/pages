@@ -1,15 +1,12 @@
-# &icon-ms-ppt; Slides
 
 [Download slides](https://udel.instructure.com/files/75542505/download){: .instructure_file_link .instructure_scribd_file }
 
-# &icon-video; Video
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
 title="Introduction.pdf"
 src="https://www.youtube.com/embed/RwtQmRzFEqo?feature=oembed&amp;rel=0" 
 ></iframe>
 
-# &icon-document; Transcript
 
 #### Mutability
 
