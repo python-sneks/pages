@@ -93,9 +93,9 @@ print(data['date'])
 
 ```
 {
-  time: "05:13:11 PM",
-  milliseconds_since_epoch: 1506186791975,
-  date: "09-23-2017"
+  time:Â "05:13:11 PM",
+  milliseconds_since_epoch:Â 1506186791975,
+  date:Â "09-23-2017"
 }
 ```
 
