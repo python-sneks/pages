@@ -1,9 +1,9 @@
 
-[Download slides](https://udel.instructure.com/files/74606127/download){: .instructure_file_link .instructure_scribd_file }
+[Download slides](Types.pdf)
 
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
-title="Introduction.pdf"
+title="Types.pdf"
 src="https://www.youtube.com/embed/VZrudniujb4?feature=oembed&amp;rel=0" 
 ></iframe>
 
