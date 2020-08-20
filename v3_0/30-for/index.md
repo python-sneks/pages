@@ -73,8 +73,16 @@ for item in a_list:
 > Annotations point out that each element in turn is assigned to the iteration variable.  
 > Additionally, the following table is shown to highlight the values inside of `a_list`:
 
-| 10 | 10 | 20 | 1 | 1 |
-|----|----|----|---|---|
+
+<table>
+    <tr>
+        <td>10</td>
+        <td>10</td>
+        <td>20</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+</table>
 
 #### The Iteration Variable
 
