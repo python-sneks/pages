@@ -14,10 +14,11 @@
   </head>
   <body>
     <div class="wrapper">
-      <!--<header>
+      <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-      </header>-->
+        <p class="header">Return to <a href="{{ '/' | relative_url }}">list of pages</a></p>
+        <!--<p class="header">{{ site.description | default: site.github.project_tagline }}</p>-->
+      </header>
 
       <section>
         {{ content }}
