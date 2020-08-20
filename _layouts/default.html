@@ -15,8 +15,10 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">Return to <a href="{{ '/' | relative_url }}">list of pages</a></p>
+        <a href="{{ '/' | relative_url }}">
+          <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+          <p class="header">Click here to return to the list of pages</p>
+        </a>
         <!--<p class="header">{{ site.description | default: site.github.project_tagline }}</p>-->
       </header>
 
