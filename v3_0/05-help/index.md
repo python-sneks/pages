@@ -1,11 +1,11 @@
+# Getting Help
 
 [Download slides](Getting%20Help.pdf)
 
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
 title="Getting Help.pdf"
-src="https://www.youtube.com/embed/mn3NfR9zR1g?feature=oembed&amp;rel=0" 
-></iframe>
+src="https://www.youtube.com/embed/mn3NfR9zR1g?feature=oembed&amp;rel=0" ></iframe>
 
 
 #### How to Get Help

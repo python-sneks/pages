@@ -1,11 +1,11 @@
+# For Loops
 
 [Download slides](For%20Loops.pdf)
 
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
 title="Introduction.pdf"
-src="https://www.youtube.com/embed/cx686txSx_c?feature=oembed&amp;rel=0" 
-></iframe>
+src="https://www.youtube.com/embed/cx686txSx_c?feature=oembed&amp;rel=0" ></iframe>
 
 
 #### Doing Things Multiple Times

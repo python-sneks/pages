@@ -1,11 +1,11 @@
+# Lookup and Find
 
 [Download slides](Lookup%20and%20Find.pdf)
 
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
 title="Introduction.pdf"
-src="https://www.youtube.com/embed/4vVoa94yBu4?feature=oembed&amp;rel=0" 
-></iframe>
+src="https://www.youtube.com/embed/4vVoa94yBu4?feature=oembed&amp;rel=0" ></iframe>
 
 
 #### Lists vs. Dictionaries

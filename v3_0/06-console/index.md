@@ -1,11 +1,11 @@
+# Console IO
 
 [Download slides](Console%20IO.pdf){: .instructure_file_link .instructure_scribd_file }
 
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
 title="Console IO.pdf"
-src="https://www.youtube.com/embed/crEA3O7qGao?feature=oembed&amp;rel=0" 
-></iframe>
+src="https://www.youtube.com/embed/crEA3O7qGao?feature=oembed&amp;rel=0" ></iframe>
 
 
 #### Phases of a Program

@@ -1,11 +1,11 @@
+# More Loop Patterns
 
 [Download slides](Loop%20Patterns%202.pdf)
 
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
-title="Introduction.pdf"
-src="https://www.youtube.com/embed/9FOZ6t04ZAs?feature=oembed&amp;rel=0" 
-></iframe>
+title="More Loop Patterns"
+src="https://www.youtube.com/embed/9FOZ6t04ZAs?feature=oembed&amp;rel=0" ></iframe>
 
 
 #### More Patterns
