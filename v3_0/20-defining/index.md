@@ -4,8 +4,7 @@
 
 <iframe style="width: 640px; height: 480px;" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
 title="Introduction.pdf"
-src="https://www.youtube.com/embed/BX7o3ueHaGA?feature=oembed&amp;rel=0" 
-></iframe>
+src="https://www.youtube.com/embed/BX7o3ueHaGA?feature=oembed&amp;rel=0" ></iframe>
 
 
 #### Defining Functions
@@ -28,136 +27,114 @@ Second, they allow us to debug a chunk of code in isolation from the rest of the
 
 #### Definition Syntax
 To create a new function, you use the `def` keyword, which stands for "define".
-You write `def`, the name of the function, an open parentheses, each of the parameters separated by commas, a closed parentheses, a dash, a greater than, the return type of the function, and a colon.
-The parameters need their variable names, a colon, and their parameter type.
-This entire line is called the header.
+
+You write `def`, the name of the function, an open parentheses
+each of the **parameters** separated by commas,
+a closed parentheses,
+a dash and a greater than,
+the **return** type of the function, and a colon
+ 
+The parameters need: variable names, a colon, and their parameter type.
+ 
+This entire line is called the **Header**.
 
 ```python
 def name(p1: int, p2: str) -> bool:
 ```
 
 > Annotations mark each part of the function definition.
-> `def` is the define keyword
-> `name` is the name of the function
-> `(` and `)` are the parentheses
-> `p1` and `p2` are parameters' names
-> `int` and `str` are the parameters' types
-> `,` is a comma, separating the parameters
-> `->` is dash and a greater than, forming an arrow
-> `bool` is the return type
-> `:` is a colon, ending the header
+> * `def` is the define keyword
+> * `name` is the name of the function
+> * `(` and `)` are the parentheses
+> * `p1` and `p2` are parameters' names
+> * `int` and `str` are the parameters' types
+> * `,` is a comma, separating the parameters
+> * `->` is dash and a greater than, forming an arrow
+> * `bool` is the return type
+> * `:` is a colon, ending the header
 
     
 #### Function Body
-When you call a function, you are executing the code stored in the "Body" of the function.
-Everything "inside" the body should be indented 4 spaces.
+
+When you call a function, you are executing the code stored in the "Body" of
+the function. Everything "inside" the body should be indented 4 spaces.
 In the block version, this is shown visually with the bar on the left.
-The body can be one or more lines long - in other words, it cannot be empty.
+The body must be there - in other words, it cannot be empty.
 
 ```python
-def a_function(something: int) -> bool:
-    modified = something * 5
-    is_big = modified > 10
-    return is_big
+def add(left: int, right: int) -> int:
+    return left + right
 ```
 
 > An annotation points out that the body of the function is indented 4 spaces.  
-> On the right, the same code is shown as blocks, with a highlight around the left side of the block (representing the indentation).
-
-#### Pass
-Sometimes, we want to define a function without writing its body just yet.
-We use a special statement named "pass" to fill in the body until we're ready to write it.
-Pass is a very special statement: it does absolutely nothing but take up space.
-
-```python
-def func(abc: bool) -> str:
-    pass
-```
-
-> An annotation explains that the `pass` statement means "do nothing".
-
-#### Tricky Colons
-A number of statements in Python require colons at the end.
-Functions require colons at the end of the header.
-One of the most common mistakes people will make is to forget the colon.
-
-```python
-def name() -> None:
-    pass
-```
-
-> An annotation is pointing to the colon and reads "Seriously, don't forget the colon."
+> On the right, the same code is shown as blocks, with a highlight around 
+> the left side of the block (representing the indentation).
 
 #### Naming a function
-Naming a function is just like naming a variable.
-The same rules even apply: you may only use letters, numbers, and underscores, and it cannot start with a number.
-Choose the name of the function based on what it does at a high level - typically it should be a verb.
 
-1. Names can only have
-    * Letters
-    * Numbers
-    * Underscores (\_)
+Usually, you should use a verb as the name of the function.
+The name helps other programmers understand what the function does.
+Naming a function is just like naming a variable: you may only use letters, 
+numbers, and underscores, and it cannot start with a number.
 
-2. Names must begin with
-    * A letter
-    * An underscore (\_)
+> Rules:
+> 1. Use verbs
+> 2. Function names can only have
+>     * Letters (abcABC)
+>     * Numbers (123)
+>     * Underscores (\_)
+> 3. Function names must NOT begin with
+>     * Numbers
     
 #### Calling Your Functions
 
-After you've defined a function, you can use it.
-Again, we combine the name of the function with parentheses.
-
-```python
-def print_name(name: str):
-    print("Hello", name)
-
-print_name("Cory")
-print_name("Klaus")
-print_name("Ellie")
-```
-
-
-#### Parameters
-When you define a function, you can choose to add in parameters.
-These parameters will take on the value of the arguments when the function is called.
-This can be very tricky to understand.
+After you've defined a function, you can use it by calling the function.
+As we did before, we combine the name of the function with **calling parentheses**.
+Note how we still pass in **arguments**.
+Here we call the function `add5` twice, first passing in the argument 10
+and then the calling it again with the argument 3.
 
 ```python
 def add5(a_number: int):
-    new = a_number + 5
+    return a_number + 5
 
 add5(10)
+add5(3)
 ```
 
-#### Parameters and Values
-Remember, variables are passed into a function call as values.
-When you manipulate the value of the parameter, you are NOT changing the original variable.
-That means that the code below prints "5" instead of "0".
+> Annotations indicate that the calls produce the values `15` and `8`.
+
+
+#### Parameters
+When you define a function, you can choose to add in **parameters** to the header.
+These parameters will take on the value of the arguments when the function is called.
+This can be very tricky to understand.
+Each argument exactly matches one parameter.
+In the code below, the parameter `first` will match to 3, -2, and -10.
+The parameter `second` will match to 8, 5, and 10.
+Remember, each function call happens one after the other.
 
 ```python
-def reset(a_var: int):
-    a_var = 0
+def subtract(first: int, second: int) -> int:
+    return first - second
 
-my_num = 5
-reset(my_num)
-print(my_num)
+subtract(3, 8)
+subtract(-2, 5)
+subtract(10, 10)
 ```
-
-> An annotation points out that the second line modifies `a_var`, but not `my_num`  
-> A second annotation points out that the `print(my_num)` prints 5, not 0.
 
 #### Parameters and Types
 
-In modern Python, we can optionally specify the type of each parameter.
+In modern Python, we specify the type of each parameter.
 So far, we know of five types: int, str, float, bool, and None.
 Any time you call that function, the arguments must match the type of the parameter.
 
 ```python
-def area(length:int, width:int) -> int:
-    return length * width
+def get_speed(distance: int, time: int) -> float:
+    return distance / time
 
-
-area(4, 5)
+get_speed(6, 2)
+get_speed(3, 8)
 ```
 
 > Annotations on the code point out the parameter types (both are `int`)
@@ -167,67 +144,53 @@ area(4, 5)
 When defining a function, you can make it return a value.
 Most functions return some kind of value. 
 We make Python return values using the "return" statement.
-We can also specify the type of value that the function returns using the arrow and a type in the header.
+We describe what type of value the function returns
+using the arrow and a type in the header.
+But note that it is the **return statement** that actually makes a value
+get returned; the header just describes what should be returned.
 
 ```python
-def area(length:int, width:int)->int:
+def area(length:int, width:int) -> int:
     return length * width
 ```
 
 > An annotation points out that the second line is a `return` statement.
 > Another annotation points out the arrow (`->`) and return type (`int`)
 
-#### The Effect of Returning
+#### Calling and Printing
 
-When your function returns something, the calling block will change its shape.
-This connects to the earlier ideas about expressions and statements.
-When it comes to functions, returning values make functions behave as expressions instead of statements.
-
-> On the left and right there are BlockPy blocks of code, each side having a function definition and a function call.  
-> The first function has a return statement, which makes the first call have a notch on its left side.  
-> The second function does not return, which makes the second call have a flat left side but notches on the top and bottom.
-
-#### Returns Go in Functions
-
-Return statements can only be placed INSIDE of a function definition.
-It is impossible to have a return outside of a function.
-Any attempt to do so will give you an error message.
-
-> A message that says "Do not put return statements OUTSIDE of a function body!"
-
-#### Print vs. Returning
-
-Printing and returning are two *very* different things, although that may seem confusing. 
-Printing is how we write stuff to the console, while returning is used to get data out of functions.
-When you return a value, you might store it in a variable and use it later or as part of an expression.
-The print function does not return anything - instead it returns the special value None.
-
-> Two sets of code, one on the left and one on the right.  
-> On the left, above an annotation that reads "Prints 6":
+When you call a function, a value is always returned.
+Even if you forget the return statement, the special value `None` will be
+returned.
+If you are writing code in the console, then you will see any non-`None` values
+appear.
+But if you are writing code in a regular editor, the value will not appear in
+the console unless you use `print`.
+We will sometimes print the result of calling a function, but remember
+that printing is not necessary to call a function.
 
 ```python
-def double(a_number:int) ->int:
-    return a_number * 2
+def area(length:int, width:int) -> int:
+    return length * width
 
-doubled = double(3)
-print(doubled)
+print(area(3, 4))
+area(1, 8)
+print(area(5, 2))
 ```
 
-> On the right:
+> Two annotations point out that the output is `12` and `10`
+> The middle annotation points out that the calculated `8` is not printed
+
+#### Pass
+
+Sometimes, we want to define a function without writing its body just yet.
+We use a special statement named "pass" to fill in the body until we're ready to write it.
+Pass is a very special statement: it does absolutely nothing but take up space, telling the computer to "pass over" this line.
+Since we always have to have a body, if we didn't put the word pass there, Python would crash with a syntax error.
 
 ```python
-def double(a_number:int):
-    print(a_number * 2)
-
-doubled = double(3)
-print(doubled)
+def func(abc: bool) -> str:
+    pass
 ```
 
-> An annotation points out that the second bit of code prints:
-
-```
-6
-None
-```
-
-> Note the `None` being printed!
+> An annotation explains that the `pass` statement means "do nothing".
