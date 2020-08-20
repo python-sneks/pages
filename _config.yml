@@ -7,3 +7,5 @@ description: Introductory materials for Python
 
 # Your name to show in the footer
 author: Austin Cory Bart <acbart@udel.edu>
+
+theme: jekyll-theme-dinky
