@@ -25,7 +25,7 @@ less than and greater than. This measures which ones come first in the alphabet.
 > "Dog" == "Dog"
 True 
 > "Dog" != "Cat"
-False
+True
 > "Aardvark" < "Zoo"
 True
 > "Orange" <= "Apple"
@@ -44,6 +44,8 @@ True
 > "cow" in "cowabunga"
 True
 > "y" not in "axes"
+True
+> "xe" not in "axes"
 False
 ```
 
