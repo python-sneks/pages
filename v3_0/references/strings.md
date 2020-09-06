@@ -44,9 +44,7 @@ typically used in conditional expressions (e.g., for `if` statements).
  **Syntax** :
 
 ```python
-
-a_string.count(substring)
-
+a_string.count(substring)
 ```
 
 **Parameters** :  
@@ -56,17 +54,15 @@ a_string.count(substring)
  **Examples** :
 
 ```python
-
-> "Harry Potter".count("r")
-3
-> "Alpha Beta".count("r")
-0
-> "Hermione Granger".count("P")
-0
-> new_string = "Hello world"
-> new_string.count("l")
-2
-
+> "Harry Potter".count("r")
+3
+> "Alpha Beta".count("r")
+0
+> "Hermione Granger".count("P")
+0
+> new_string = "Hello world"
+> new_string.count("l")
+2
 ```
 
 **Full Documentation**
@@ -81,9 +77,7 @@ a_string.count(substring)
  **Syntax** :
 
 ```python
-
-a_string.endswith(suffix)
-
+a_string.endswith(suffix)
 ```
 
 **Parameters** :  
@@ -93,14 +87,12 @@ a_string.endswith(suffix)
  **Examples** :
 
 ```python
-
-> "Harry Potter".endswith("Potter")
-True
-> "Hermione Granger".endswith("Potter")
-False
-> "Treehouse".endswith("House")
-False
-
+> "Harry Potter".endswith("Potter")
+True
+> "Hermione Granger".endswith("Potter")
+False
+> "Treehouse".endswith("House")
+False
 ```
 
 **Full Documentation**
@@ -115,9 +107,7 @@ False
  **Syntax** :
 
 ```python
-
-a_string.startswith(prefix)
-
+a_string.startswith(prefix)
 ```
 
 **Parameters** :  
@@ -130,12 +120,12 @@ string.
 
 ```python
 
-> "Harry Potter".startswith("Harry")
-True
-> "Hermione Granger".startswith("Harry")
-False
-> "Treehouse".startswith("tree")
-False
+> "Harry Potter".startswith("Harry")
+True
+> "Hermione Granger".startswith("Harry")
+False
+> "Treehouse".startswith("tree")
+False
 
 ```
 
@@ -151,10 +141,7 @@ False
  **Syntax** :
 
 ```python
-
 a_string.isdigit()
-
-
 ```
 
 **Parameters** : None  
@@ -164,19 +151,12 @@ a_string.isdigit()
 **Examples** :
 
 ```python
-
 > "1234".isdigit()
-
 True
-
 > "Harry Potter".isdigit()
-
 False
-
 > "12pm".isdigit()
-
 False
-
 ```
 
 **Full Documentation**
@@ -196,9 +176,7 @@ the title of a book).
  **Syntax** :
 
 ```python
-
-a_string.title()
-
+a_string.title()
 ```
 
 **Parameters** : None
@@ -208,14 +186,12 @@ a_string.title()
 **Examples** :
 
 ```python
-
-> "This is a full sentence.".title()
-'This Is A Full Sentence'
-> "hermione granger".title()
-'Hermione Granger'
-> "WHY AM I SHOUTING".title()
-'Why Am I Shouting'
-
+> "This is a full sentence.".title()
+'This Is A Full Sentence'
+> "hermione granger".title()
+'Hermione Granger'
+> "WHY AM I SHOUTING".title()
+'Why Am I Shouting'
 ```
 
 **Full Documentation**
@@ -231,9 +207,7 @@ respect periods; only the first letter is capitalized!
  **Syntax** :
 
 ```python
-
-a_string.capitalize()
-
+a_string.capitalize()
 ```
 
 **Parameters** : None
@@ -243,16 +217,14 @@ a_string.capitalize()
 **Examples** :
 
 ```python
-
-> "This Is A Title Sentence.".capitalize()
-'This is a title sentence'
-> "hermione granger".capitalize()
-'Hermione granger'
-> "WHY AM I SHOUTING".capitalize()
-'Why am i shouting'
-> "First sentence. Second sentence.".capitalize()
-'First sentence. second sentence'
-
+> "This Is A Title Sentence.".capitalize()
+'This is a title sentence'
+> "hermione granger".capitalize()
+'Hermione granger'
+> "WHY AM I SHOUTING".capitalize()
+'Why am i shouting'
+> "First sentence. Second sentence.".capitalize()
+'First sentence. second sentence'
 ```
 
 **Full Documentation**
@@ -267,9 +239,7 @@ a_string.capitalize()
  **Syntax** :
 
 ```python
-
-a_string.upper()
-
+a_string.upper()
 ```
 
 **Parameters** : None
@@ -279,14 +249,12 @@ a_string.upper()
 **Examples** :
 
 ```python
-
-> "This Is A Title Sentence.".upper()
-'THIS IS A TITLE SENTENCE'
-> "hermione granger".upper()
-'HERMIONE GRANGER'
-> "why am i shouting".upper()
-'WHY AM I SHOUTING'
-
+> "This Is A Title Sentence.".upper()
+'THIS IS A TITLE SENTENCE'
+> "hermione granger".upper()
+'HERMIONE GRANGER'
+> "why am i shouting".upper()
+'WHY AM I SHOUTING'
 ```
 
 **Full Documentation**
@@ -301,9 +269,7 @@ a_string.upper()
  **Syntax** :
 
 ```python
-
-a_string.lower()
-
+a_string.lower()
 ```
 
 **Parameters** : None
@@ -313,14 +279,12 @@ a_string.lower()
 **Examples** :
 
 ```python
-
-> "This Is A Title Sentence.".lower()
-'this is a title sentence'
-> "Hermione Granger".lower()
-'hermione granger'
-> "WHY AM I SHOUTING".lower()
-'why am i shouting'
-
+> "This Is A Title Sentence.".lower()
+'this is a title sentence'
+> "Hermione Granger".lower()
+'hermione granger'
+> "WHY AM I SHOUTING".lower()
+'why am i shouting'
 ```
 
 **Full Documentation**
@@ -340,9 +304,7 @@ lists) into strings.
  **Syntax** :
 
 ```python
-
-a_string.split(separator)
-
+a_string.split(separator)
 ```
 
 **Parameters** :  
@@ -354,18 +316,16 @@ out, this method will instead split on whitespace.
 **Examples** :
 
 ```python
-
-> "Harry Potter, Hermione Granger, Ron Weasley".split(',')
-['Harry Potter', ' Hermione Granger', ' Ron Weasley']
-> "and/or".split("/")
-['and', 'or']
-> "There will be no splits.".split("-")
-['There will be no splits.']
-> "".split("Empty string")
-['']
-> "Leaving out the argument will split on all whitespace!".split()
-['Leaving', 'out', 'the', 'argument', 'will', 'split', 'on', 'all', 'whitespace!']
-
+> "Harry Potter, Hermione Granger, Ron Weasley".split(',')
+['Harry Potter', ' Hermione Granger', ' Ron Weasley']
+> "and/or".split("/")
+['and', 'or']
+> "There will be no splits.".split("-")
+['There will be no splits.']
+> "".split("Empty string")
+['']
+> "Leaving out the argument will split on all whitespace!".split()
+['Leaving', 'out', 'the', 'argument', 'will', 'split', 'on', 'all', 'whitespace!']
 ```
 
 **Full Documentation**
@@ -380,9 +340,7 @@ elements of `a_sequence` using `a_string`.
  **Syntax** :
 
 ```python
-
-a_string.split(a_sequence)
-
+a_string.split(a_sequence)
 ```
 
 **Parameters** :  
@@ -394,16 +352,14 @@ strings that will be joined together. You must make sure these are strings!
 **Examples** :
 
 ```python
-
-> ','.join(['Harry Potter', 'Hermione Granger', 'Ron Weasley'])
-'Harry Potter,Hermione Granger,Ron Weasley'
-> "/".join(["and", "or"])
-'and/or'
-> "Nothing to join together".join([])
-''
-> "".join(["No", "Spaces", "Or", "Anything"])
-''NoSpacesOrAnything'
-
+> ','.join(['Harry Potter', 'Hermione Granger', 'Ron Weasley'])
+'Harry Potter,Hermione Granger,Ron Weasley'
+> "/".join(["and", "or"])
+'and/or'
+> "Nothing to join together".join([])
+''
+> "".join(["No", "Spaces", "Or", "Anything"])
+''NoSpacesOrAnything'
 ```
 
 **Full Documentation**
@@ -424,9 +380,7 @@ the substring is not in the string, then `-1` is returned.
  **Syntax** :
 
 ```python
-
-a_string.find(substring)
-
+a_string.find(substring)
 ```
 
 **Parameters** :  
@@ -437,18 +391,16 @@ a_string.find(substring)
 **Examples** :
 
 ```python
-
-> "Harry Potter".find('r')
-2
-> "Capitalization is Important".find('I')
-18
-> "Harry Potter".find('g')
--1
-> "".find('e')
--1
-> "You can check for more than one character!".find("can")
-4
-
+> "Harry Potter".find('r')
+2
+> "Capitalization is Important".find('I')
+18
+> "Harry Potter".find('g')
+-1
+> "".find('e')
+-1
+> "You can check for more than one character!".find("can")
+4
 ```
 
 **Full Documentation**
@@ -467,9 +419,7 @@ These methods remove whitespace from strings (spaces, tabs, new lines, etc.).
  **Syntax** :
 
 ```python
-
-a_string.strip()
-
+a_string.strip()
 ```
 
 **Parameters** : None
@@ -479,14 +429,12 @@ a_string.strip()
 **Examples** :
 
 ```python
-
-> "      Garbage whitespace     ".strip()
-'Garbage whitespace'
-> "Works on either side      ".strip()
-'Works on either side'
-> "Common task is to remove newlines\n\n".strip()
-'Common task is to remove newlines'
-
+> "      Garbage whitespace     ".strip()
+'Garbage whitespace'
+> "Works on either side      ".strip()
+'Works on either side'
+> "Common task is to remove newlines\n\n".strip()
+'Common task is to remove newlines'
 ```
 
 **Full Documentation**
@@ -501,9 +449,7 @@ a_string.strip()
  **Syntax** :
 
 ```python
-
-a_string.lstrip()
-
+a_string.lstrip()
 ```
 
 **Parameters** : None
@@ -513,12 +459,10 @@ a_string.lstrip()
 **Examples** :
 
 ```python
-
-> "      Garbage whitespace".lstrip()
-'Garbage whitespace'
-> "Works on one side only     ".lstrip()
-'Works on one side only     '
-
+> "      Garbage whitespace".lstrip()
+'Garbage whitespace'
+> "Works on one side only     ".lstrip()
+'Works on one side only     '
 ```
 
 **Full Documentation**
@@ -533,9 +477,7 @@ a_string.lstrip()
  **Syntax** :
 
 ```python
-
-a_string.rstrip()
-
+a_string.rstrip()
 ```
 
 **Parameters** : None
@@ -545,12 +487,10 @@ a_string.rstrip()
 **Examples** :
 
 ```python
-
-> "Garbage whitespace     ".rstrip()
-'Garbage whitespace'
-> "     Works on one side only".rstrip()
-'     Works on one side only'
-
+> "Garbage whitespace     ".rstrip()
+'Garbage whitespace'
+> "     Works on one side only".rstrip()
+'     Works on one side only'
 ```
 
 **Full Documentation**
@@ -569,9 +509,7 @@ This method is used to conveniently edit strings.
  **Syntax** :
 
 ```python
-
-a_string.replace(old, new)
-
+a_string.replace(old, new)
 ```
 
 **Parameters** :  
@@ -583,14 +521,12 @@ a_string.replace(old, new)
 **Examples** :
 
 ```python
-
-> "Can you open the door?".replace("open", "close")
-'Can you close the door?'
-> "Multipl? occurr?nc?s".replace("?", "e")
-'Multiple occurrences'
-> "Useful for e-r-a-s-i-n-g too!".replace("-", "")
-'Useful for erasing too!'
-
+> "Can you open the door?".replace("open", "close")
+'Can you close the door?'
+> "Multipl? occurr?nc?s".replace("?", "e")
+'Multiple occurrences'
+> "Useful for e-r-a-s-i-n-g too!".replace("-", "")
+'Useful for erasing too!'
 ```
 
 **Full Documentation**
@@ -606,9 +542,7 @@ number of parameters given in `args`.
  **Syntax** :
 
 ```python
-
-a_string.format(*args)
-
+a_string.format(*args)
 ```
 
 **Parameters** :  
@@ -620,12 +554,10 @@ replacing any occurrences of `{}` in order.
 **Examples** :
 
 ```python
-
-> "The sum of 1+1 is {}".format(2)
-'The sum of 1+1 is 2'
-> "{} arguments can be {}".format("Multiple", "passed")
-'Multiple arguments can be passed'
-
+> "The sum of 1+1 is {}".format(2)
+'The sum of 1+1 is 2'
+> "{} arguments can be {}".format("Multiple", "passed")
+'Multiple arguments can be passed'
 ```
 
 **Full Documentation**
