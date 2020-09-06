@@ -39,19 +39,19 @@ typically used in conditional expressions (e.g., for `if` statements).
 
 ## count
 
-**Description** : The method `count` returns the number of times that the
+**Description**: The method `count` returns the number of times that the
 `substring` appears in the string `a_string`.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.count(substring)
 ```
 
-**Parameters** :  
+**Parameters**:  
 \- substring (`str`): The string to count the number of occurrences of.
 
-**Returns** : `int`  
- **Examples** :
+**Returns**: `int`  
+ **Examples**:
 
 ```python
 > "Harry Potter".count("r")
@@ -72,19 +72,19 @@ a_string.count(substring)
 
 ## endswith
 
-**Description** : The method `endswith` returns whether the given string
+**Description**: The method `endswith` returns whether the given string
 `a_string` ends with the `suffix` string.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.endswith(suffix)
 ```
 
-**Parameters** :  
+**Parameters**:  
 \- suffix (`str`): The string that could be at the end of the other string.
 
-**Returns** : `bool`  
- **Examples** :
+**Returns**: `bool`  
+ **Examples**:
 
 ```python
 > "Harry Potter".endswith("Potter")
@@ -102,21 +102,21 @@ False
 
 ## startswith
 
-**Description** : The method `startswith` returns whether the given string
+**Description**: The method `startswith` returns whether the given string
 `a_string` begins with the `prefix` string.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.startswith(prefix)
 ```
 
-**Parameters** :  
+**Parameters**:  
 \- prefix (`str`): The string that could be at the beginning of the other
 string.
 
-**Returns** : `bool`
+**Returns**: `bool`
 
-**Examples** :
+**Examples**:
 
 ```python
 
@@ -126,7 +126,6 @@ True
 False
 > "Treehouse".startswith("tree")
 False
-
 ```
 
 **Full Documentation**
@@ -136,19 +135,19 @@ False
 
 ## isdigit
 
-**Description** : The method `isdigit` returns whether the given string
+**Description**: The method `isdigit` returns whether the given string
 `isdigit` only has numerals in it (0, 1, 2, etc.).  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.isdigit()
 ```
 
-**Parameters** : None  
+**Parameters**: None  
 
-**Returns** : `bool`
+**Returns**: `bool`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "1234".isdigit()
@@ -170,20 +169,20 @@ These methods are for changing capitalization in strings.
 
 ## title
 
-**Description** : The method `title` returns a new version of the string
+**Description**: The method `title` returns a new version of the string
 `a_string` with the first letter of each word capitalized (as you would see in
 the title of a book).  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.title()
 ```
 
-**Parameters** : None
+**Parameters**: None
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "This is a full sentence.".title()
@@ -201,20 +200,20 @@ a_string.title()
 
 ## capitalize
 
-**Description** : The method `capitalize` returns a new version of the string
+**Description**: The method `capitalize` returns a new version of the string
 `a_string` with only the first letter capitalized. Note that this does not
 respect periods; only the first letter is capitalized!  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.capitalize()
 ```
 
-**Parameters** : None
+**Parameters**: None
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "This Is A Title Sentence.".capitalize()
@@ -234,19 +233,19 @@ a_string.capitalize()
 
 ## upper
 
-**Description** : The method `upper` returns a new version of the string
+**Description**: The method `upper` returns a new version of the string
 `a_string` with all of the characters capitalized (uppercase).  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.upper()
 ```
 
-**Parameters** : None
+**Parameters**: None
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "This Is A Title Sentence.".upper()
@@ -264,19 +263,19 @@ a_string.upper()
 
 ## lower
 
-**Description** : The method `lower` returns a new version of the string
+**Description**: The method `lower` returns a new version of the string
 `a_string` with all of the characters lowercase.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.lower()
 ```
 
-**Parameters** : None
+**Parameters**: None
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "This Is A Title Sentence.".lower()
@@ -299,21 +298,21 @@ lists) into strings.
 
 ## split
 
-**Description** : The method `split` returns a new list by breaking the string
+**Description**: The method `split` returns a new list by breaking the string
 `a_string` into elements based on the `separator`.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.split(separator)
 ```
 
-**Parameters** :  
+**Parameters**:  
 \- separator (`str`): The string that will be used to find splits. If left
 out, this method will instead split on whitespace.
 
-**Returns** : `list` of `str`
+**Returns**: `list` of `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "Harry Potter, Hermione Granger, Ron Weasley".split(',')
@@ -335,21 +334,21 @@ out, this method will instead split on whitespace.
 
 ## join
 
-**Description** : The method `join` returns a new string by combining the
+**Description**: The method `join` returns a new string by combining the
 elements of `a_sequence` using `a_string`.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.split(a_sequence)
 ```
 
-**Parameters** :  
+**Parameters**:  
 \- a_sequence (`list` of `str` or other sequence of `str`): The sequence of
 strings that will be joined together. You must make sure these are strings!
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > ','.join(['Harry Potter', 'Hermione Granger', 'Ron Weasley'])
@@ -374,21 +373,21 @@ information.
 
 ## find
 
-**Description** : The method `find` returns the numerical index of the first
+**Description**: The method `find` returns the numerical index of the first
 appearance of `substring` in `a_string`. Remember, counting starts at 0. If
 the substring is not in the string, then `-1` is returned.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.find(substring)
 ```
 
-**Parameters** :  
+**Parameters**:  
 \- substring (`str`): The string to find in `a_string`.
 
-**Returns** : `int`
+**Returns**: `int`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "Harry Potter".find('r')
@@ -414,19 +413,19 @@ These methods remove whitespace from strings (spaces, tabs, new lines, etc.).
 
 ## strip
 
-**Description** : The method `strip` returns a new string with any whitespace
+**Description**: The method `strip` returns a new string with any whitespace
 (e.g., spaces or tabs) removed from both sides.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.strip()
 ```
 
-**Parameters** : None
+**Parameters**: None
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "      Garbage whitespace     ".strip()
@@ -444,19 +443,19 @@ a_string.strip()
 
 ## lstrip
 
-**Description** : The method `lstrip` returns a new string with any whitespace
+**Description**: The method `lstrip` returns a new string with any whitespace
 (e.g., spaces or tabs) removed from only the LEFT side.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.lstrip()
 ```
 
-**Parameters** : None
+**Parameters**: None
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "      Garbage whitespace".lstrip()
@@ -472,19 +471,19 @@ a_string.lstrip()
 
 ## rstrip
 
-**Description** : The method `rstrip` returns a new string with any whitespace
+**Description**: The method `rstrip` returns a new string with any whitespace
 (e.g., spaces or tabs) removed from only the RIGHT side.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.rstrip()
 ```
 
-**Parameters** : None
+**Parameters**: None
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "Garbage whitespace     ".rstrip()
@@ -504,21 +503,21 @@ This method is used to conveniently edit strings.
 
 ## replace
 
-**Description** : The method `replace` returns a new string based on
+**Description**: The method `replace` returns a new string based on
 `a_string`, but with any occurrence of `old` replaced by `new`.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.replace(old, new)
 ```
 
-**Parameters** :  
+**Parameters**:  
 \- old (`str`): The original text to find in the string.  
 \- new (`str`): The new text to change the `old` text into.
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "Can you open the door?".replace("open", "close")
@@ -536,22 +535,22 @@ a_string.replace(old, new)
 
 ## format
 
-**Description** : The method `format` returns a new string based on
+**Description**: The method `format` returns a new string based on
 `a_string`, but with the parameters added in to replace any `{}` with any
 number of parameters given in `args`.  
- **Syntax** :
+ **Syntax**:
 
 ```python
 a_string.format(*args)
 ```
 
-**Parameters** :  
+**Parameters**:  
 \- args (Any type): 0 or more values that will be injected into `a_string`,
 replacing any occurrences of `{}` in order.
 
-**Returns** : `str`
+**Returns**: `str`
 
-**Examples** :
+**Examples**:
 
 ```python
 > "The sum of 1+1 is {}".format(2)
