@@ -62,7 +62,7 @@ a_string.count(substring)
 0
 > new_string = "Hello world"
 > new_string.count("l")
-2
+3
 ```
 
 **Full Documentation**
