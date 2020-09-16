@@ -186,7 +186,7 @@ a_string.title()
 
 ```python
 > "This is a full sentence.".title()
-'This Is A Full Sentence'
+'This Is A Full Sentence.'
 > "hermione granger".title()
 'Hermione Granger'
 > "WHY AM I SHOUTING".title()
@@ -217,7 +217,7 @@ a_string.capitalize()
 
 ```python
 > "This Is A Title Sentence.".capitalize()
-'This is a title sentence'
+'This is a title sentence.'
 > "hermione granger".capitalize()
 'Hermione granger'
 > "WHY AM I SHOUTING".capitalize()
