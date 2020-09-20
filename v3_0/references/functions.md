@@ -14,19 +14,29 @@ Write the parts of the function in this order:
 1. **Function Header**: Have you written the header, including...
 
     1.1. **`def` Keyword**
+    
     1.2. **Function name**
+    
     1.3. **Open parentheses**: `(`
+    
     1.4. **Parameters**: Remember, each parameter needs to have:
     
-        1.4.1. **Parameter name**
-        1.4.2. **Colon**: `:`
-        1.4.3. **Parameter type**
-        1.4.4. **Comma**: But only *between* parameters.
+        a. **Parameter name**
+        
+        b. **Colon**: `:`
+        
+        c. **Parameter type**
+        
+        d. **Comma**: But only *between* parameters.
     
     1.5. **End parentheses**: `)`
+    
     1.6. **Arrow**: `->`
+    
     1.7. **Return type**
+    
     1.8. **Colon**: `:`
+    
 2. **Write a Docstring**: Put a triple-quoted string literal(`""" Like this """`) inside of the function, indented with four spaces. Inside the literal, write a description of what the function does. Then unindent the next line to leave the function.
 3. **Write a Unit Test**: Have you written at least one test case, including...
 
