@@ -97,7 +97,7 @@ Here we call the function `add5` twice, first passing in the argument 10
 and then the calling it again with the argument 3.
 
 ```python
-def add5(a_number: int):
+def add5(a_number: int) -> int:
     return a_number + 5
 
 add5(10)
