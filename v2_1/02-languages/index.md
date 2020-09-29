@@ -73,4 +73,4 @@ This is the idea of semantics.
 It is very easy to write perfectly valid sentences in Python that accomplish nothing at best and hurt things at worst.
 You need to think when programming, to recognize when you've written something that makes no sense.
 
-> The nonsense text "Colorless green ideas sleep furiously" is shown, with speech bubbles annotating various semantic errors. In particular, it highlights that "ideas can't sleep", you can't have something that is "colorless bug green" and it is meaningless to be "sleeping furiously".
+> The nonsense text "Colorless green ideas sleep furiously" is shown, with speech bubbles annotating various semantic errors. In particular, it highlights that "ideas can't sleep", you can't have something that is "colorless but green" and it is meaningless to be "sleeping furiously".
