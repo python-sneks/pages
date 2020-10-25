@@ -58,20 +58,23 @@ Public pages of learning content for the Python Sneks curriculum
     * [42) Lookup vs. Find](v3_0/42-lookupFind/)
 * While Loops
     * [43) While Loops](v3_0/43-while/)
-* Big Programs
-    * [44) Big Programs](v3_0/44-bigPrograms/)
 * File Handling
-    * [45) Filesystems](v3_0/45-filesystems/)
-    * [46) Files](v3_0/46-files/)
-    * [47) Modules](v3_0/47-modules/)
-    * [48) File Formats](v3_0/48-formats/)
+    * [44) Filesystems](v3_0/44-filesystems/)
+    * [45) Files](v3_0/45-files/)
+    * [46) Modules](v3_0/46-modules/)
+    * [47) File Formats](v3_0/47-formats/)
 * Data Science
-    * [49) Web Data](v3_0/53-web/)
-    * [50) Plotting](v3_0/54-plotting/)
-    * [51) Jupyter Notebooks](v3_0/55-jupyter/)
-    * [52) Data Science](v3_0/56-data/)
+    * [48) Web Data](v3_0/48-web/)
+    * [49) Plotting](v3_0/49-plotting/)
+    * [50) Jupyter Notebooks](v3_0/50-jupyter/)
+    * [51) Data Science](v3_0/51-data/)
+
+<hr>
+
 * Recursion and Complexity
-    * [53) Recursion](v3_0/49-recursion/)
-    * [54) Search](v3_0/50-search/)
-    * [55) Trees](v3_0/51-trees/)
-    * [56) Time Complexity](v3_0/52-timeComplexity/)
+    * [52) Recursion](v3_0/52-recursion/)
+    * [53) Search](v3_0/53-search/)
+    * [54) Trees](v3_0/54-trees/)
+    * [55) Time Complexity](v3_0/55-timeComplexity/)
+* Big Programs
+    * [56) Big Programs](v3_0/56-bigPrograms/)
