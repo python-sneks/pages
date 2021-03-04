@@ -339,7 +339,7 @@ elements of `a_sequence` using `a_string`.
  **Syntax**:
 
 ```python
-a_string.split(a_sequence)
+a_string.join(a_sequence)
 ```
 
 **Parameters**:  
